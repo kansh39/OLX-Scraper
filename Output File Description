@@ -1,0 +1,38 @@
+The script generates a CSV file (olx_car_covers.csv) containing the scraped car cover listings from OLX.
+The CSV file contains the following columns:
+Title: The name/description of the car cover listing
+
+Example: "Premium Car Body Cover for Maruti Suzuki Swift"
+
+
+Price: The listed price of the car cover
+
+Example: "₹1,499", "₹850"
+Note: May include discount information if provided by the seller
+
+
+Location: Geographic location where the item is being sold
+
+Example: "Mumbai, Maharashtra", "Pune"
+Format typically includes city and may include state/area
+
+
+Date: When the listing was posted or updated
+
+Example: "Today", "Yesterday", "2 days ago"
+Format varies based on how OLX displays the date
+
+Working with the CSV File
+
+The CSV is comma-delimited and UTF-8 encoded
+Can be opened in Excel, Google Sheets, or any spreadsheet application
+The first row contains column headers
+No formatting or filters are applied
+
+
+Here's what a few rows might look like:
+Title, Price, Location,Date, Link
+Universal Car Cover Waterproof,₹650 ,Bangalore South,2 days ago,https://www.olx.in/item/universal-car-cover-waterproof-iid-1801234567
+Car Cover Double Coating All Season,₹1,200 ,Mumbai, Today,https://www.olx.in/item/car-cover-double-coating-all-season-iid-1807654321
+Premium Waterproof Cover For All Cars,₹999,Delhi ,Yesterday,https://www.olx.in/item/premium-waterproof-cover-for-all-cars-iid-1809876543
+This CSV file can be used for price analysis, market research, or to find the best deals on car covers in your area.
